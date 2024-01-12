@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.title {
+    font-size:18px;
+    font-family: Poppins;
+    color: #1F2A50;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 1.2;
+
+  }
+
+.paragraph {
+    font-family: Poppins;
+    color: #939498;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+  }
+
+.cards__buttons {
+    display: inline-flex;
+    border-radius: 30px;
+    border: 2px solid#c5c4c47b;
+    padding: 3px;
+    
+}
+
+.cards_button {
+    font-family: Poppins;
+    color: #939498;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 0;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.button_on{
+    background-color: #2500f9;
+    color: white;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.card_free_trail{
+    border: none;
+    padding: 0px;
+    width: 294px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: background 0.5s ease;
+
+}
+
+.card_free_trail:hover {
+    background: #e2eaf79f;
+}
+
+.card_price{
+    font-family: "Poppins";
+    font-size: 50px;
+    color: #1F2A50;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.card_text_month{
+    font-family: "Poppins";
+    font-size: 15px;
+    color: #939498;
+    font-weight: 400; 
+}
+
+.card_name{
+    font-family: "Poppins";
+    color: #1F2A50;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card_description{
+    font-family: "Poppins";
+    color: #B3B5BC;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    line-height: 3;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.card_button_buy{
+    font-family: Poppins;
+    background-color: #2500f9;
+    color: white;
+    border-radius: 30px;
+    margin: 10;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border: 0;
+}
+
+.cards_background{
+    text-align: center;
+    height: 200px;
+    padding: 0px 60px;
+    border-radius: 10px 10px 0 0;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(160, 192, 203, 0.164) 100%
+    );
+}
+
+.button_start_free{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #2500f9;
+    margin-top: 25px;;
+}
+
+.card_pro{
+    border: 2px solid#c5c4c47b;
+    padding: 0px ;
+    width: 289px;
+    height: 550px;
+    margin: 30px;
+    margin-top: 16px;
+    border-radius: 10px; 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: background 0.5s ease;
+}
+
+.card_pro:hover {
+    background: #e2eaf79f;
+}
+
+
+.cards_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+
+
